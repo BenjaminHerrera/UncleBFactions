@@ -1,4 +1,4 @@
-# UncleBFaction
+# UncleBFactions
 
 ## Description
 UncleBFaction is a simple Spigot Factions plugin for a group called Uncle B

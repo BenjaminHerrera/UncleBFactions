@@ -1,0 +1,22 @@
+# A list of factions and their members
+factions:
+  factionOne:
+    name: "Faction #1"
+    leader: "Sean"
+    members: ["Sean", "Nathan", "Jerry", "Jenna", "Dan Pham", "Hoon", "Xobo"]
+  factionTwo:
+    name: "Faction #2"
+    leader: "Bryce"
+    members: ["Bryce", "Ethan", "Allen", "Revanth", "Kenny"]
+  factionThree:
+    name: "Faction #3"
+    leader: "Jazz"
+    members: ["Jazz", "Matthew", "Gabe", "Ash", "Arman", "Ben"]
+  factionFour:
+    name: "Faction #4"
+    leader: "John"
+    members: ["John", "ASU", "Josh", "Amy", "Samj", "Apollo"]
+  factionFive:
+    name: "Faction #5"
+    leader: "Vihaan"
+    members: ["Vihaan", "Anwar", "Best Friend", "Eric", "Aaron", "Carolyn"]

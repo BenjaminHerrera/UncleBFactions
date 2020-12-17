@@ -1,0 +1,8 @@
+name: UncleBFactions
+version: 1.0.0
+author: Benjamin Herrera
+main: me.benherrera.UncleBFactions.Main
+api-version: 1.16
+
+commands:
+  teams:

@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="UncleBFactions:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/UncleBFactions_jar</output-path>
+    <root id="archive" name="UncleBFactions.jar">
+      <element id="module-output" name="UncleBFactions" />
+    </root>
+  </artifact>
+</component>

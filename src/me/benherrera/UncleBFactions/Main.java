@@ -1,26 +1,31 @@
-// Package
+// Directory of class
 package me.benherrera.UncleBFactions;
 
 // Imports
-import me.benherrera.UncleBFactions.Commands.TeamsCommand;
-import org.bukkit.configuration.file.FileConfiguration;
+import me.benherrera.UncleBFactions.plugincommands.TeamsCommand;
+import me.benherrera.UncleBFactions.rewards.EnderDragonRewards;
+import org.bukkit.plugin.PluginManager;
 import org.bukkit.plugin.java.JavaPlugin;
 
 // Main Class
 public class Main extends JavaPlugin {
 
-    // Class Variables
-    public FileConfiguration config = getConfig();
-
     // Method when plugin is enable
     @Override
     public void onEnable() {
 
-        // Saves Config
+        // Method variables
+        PluginManager pluginManager = getServer().getPluginManager();
+
+        // Saves config
         saveDefaultConfig();
 
         // Registers /teams
+        // noinspection ConstantConditions
         getCommand("teams").setExecutor(new TeamsCommand(this));
+
+        // Registers Ender Dragon death event
+        pluginManager.registerEvents(new EnderDragonRewards(this), this);
 
     }
 

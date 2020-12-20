@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="UncleBFactions">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/out/artifacts/UncleBFactions_jar/UncleBFactions.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

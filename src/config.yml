@@ -20,3 +20,14 @@ factions:
     name: "Faction #5"
     leader: "Vihaan"
     members: ["Vihaan", "Anwar", "Best Friend", "Eric", "Aaron", "Carolyn"]
+
+# Reward settings
+enderDragonReward:
+  block: YELLOW_SHULKER_BOX
+  reward: ELYTRA
+  particle: CRIT_MAGIC
+  hologramText: "§6§lClick to claim your reward!"
+  killMessage: "§6§lThe Ender Dragon has been killed! Claim the reward by clicking the block on top of the ender egg!"
+  rewardMessage: "§6§lThe reward has been claimed by"
+  rewardMessageToPlayer01: "§6§lYou have been given an"
+  rewardMessageToPlayer02: "§6§las a reward"
